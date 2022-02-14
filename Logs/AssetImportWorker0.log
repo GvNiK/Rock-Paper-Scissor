@@ -1,0 +1,203 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+H:\Unity\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/Unity/Projects/Rock-Paper-Scissor
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62233
+Successfully changed project path to: H:/Unity/Projects/Rock-Paper-Scissor
+H:/Unity/Projects/Rock-Paper-Scissor
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path H:/Unity/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Unity/Projects/Rock-Paper-Scissor/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'H:/Unity/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'H:/Unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'H:/Unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/Unity/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001063 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (493ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (374ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Domain Reload Profiling:
+	ReloadAssembly (923ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 2.642500 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.269800 ms  DeleteObjects: 0.131700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Hand_Paper.png
+  artifactKey: Guid(a9921860c558ebd488f411ada4406b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hand_Paper.png using Guid(a9921860c558ebd488f411ada4406b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514d27cc6ccc45f37e2d1671e483e15c') in 0.088933 seconds 
+  Import took 0.092147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Scripts/ImageUpdate.cs
+  artifactKey: Guid(eea0e547bd9f5bb4682b466252630772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ImageUpdate.cs using Guid(eea0e547bd9f5bb4682b466252630772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf46e837201814a7a1b957dc2dbaca70') in 0.010686 seconds 
+  Import took 0.013823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/Rock.png
+  artifactKey: Guid(94d7549d73dd46c43bfefe77ce564626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rock.png using Guid(94d7549d73dd46c43bfefe77ce564626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de7ea138b7b13514b25ecde15a32ccd') in 0.012438 seconds 
+  Import took 0.015715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/Hand_Rock.png
+  artifactKey: Guid(cfee9540e892c66428d448c69ef53f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hand_Rock.png using Guid(cfee9540e892c66428d448c69ef53f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5ff660527f908a179d631b2e2e2d55') in 0.011222 seconds 
+  Import took 0.014109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprites/Paper.png
+  artifactKey: Guid(cea9c755eb8df2a40a8a62ba078b9f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Paper.png using Guid(cea9c755eb8df2a40a8a62ba078b9f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149f2940d21e769c47d2b7a0416a6fed') in 0.017898 seconds 
+  Import took 0.020569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Scissor.png
+  artifactKey: Guid(9bb87c9e1fca9304b8cdc447efa6bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scissor.png using Guid(9bb87c9e1fca9304b8cdc447efa6bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444fc0fecc49b51feab1b61a1787ed24') in 0.011257 seconds 
+  Import took 0.013961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Scripts/ExitGame.cs
+  artifactKey: Guid(65b198cb4ca7299439b745a4fc009ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ExitGame.cs using Guid(65b198cb4ca7299439b745a4fc009ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dc40fa1fb4bbe55a2020a726cc62cb') in 0.002893 seconds 
+  Import took 0.005641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/Hand_Scissor.png
+  artifactKey: Guid(a6b0ee998def3df43a108a9c439b18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hand_Scissor.png using Guid(a6b0ee998def3df43a108a9c439b18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0196e5045234abcc0bfd5dfcccdda6') in 0.021253 seconds 
+  Import took 0.024063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217114 seconds.
+  path: Assets/Scripts/Manager.cs
+  artifactKey: Guid(53d63246c2544ec499c4610dc80223b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manager.cs using Guid(53d63246c2544ec499c4610dc80223b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85d0eac161edfd504fe37ff4dd07e34') in 0.003230 seconds 
+  Import took 0.006237 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
